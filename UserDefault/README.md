@@ -33,7 +33,7 @@ UserDefault[.lastUpdateDate] = "20221111"
 ```swift
 let date = UserDefault[.lastUpdateDate]
 ```
-When getting a value, it's similarly concise, and the type of date will also be the type you defined, without the need for additional conversion code.
+When getting a value, it's similarly concise, and the type of date will also be the type you defined, without any additional conversion code.
 
 
 ![origin](image1.png "origin")
