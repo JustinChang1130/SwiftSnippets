@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>建立一個繼承自 NibView 的 UIView，並同時產生對應 XIB 檔。</string>
+	<key>Summary</key>
+	<string>NibView + XIB</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class Name</string>
+			<key>Description</key>
+			<string>輸入 UIView 類別名稱</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>___FILEBASENAME___.swift</string>
+		<string>___FILEBASENAME___.xib</string>
+	</array>
+</dict>
+</plist>
